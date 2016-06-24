@@ -2,18 +2,6 @@
 
 /**
  * Search for recent release dates of npm packages.
- *
- * Example usage:
- *
- * > node npm-install-time.js gulp-angular-templatecache 5
- *
- * That lists all packages that are dependencies of 'gulp-angular-templatecache' released within last 5 days (3 days by default).
- *
- *
- * > node npm-install-time.js 1
- *
- * Lists all packages released today or yesterday (3 days by default).
- *
  */
 
 var fs = require('fs');
